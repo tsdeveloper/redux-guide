@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const CartItemContainer = styled.div`
   display: flex;
@@ -57,6 +57,10 @@ export const RemoveButton = styled.div`
   margin-right: 20px;
 
   &:hover {
+    cursor: pointer;
+  }
+
+  svg:hover {
     cursor: pointer;
   }
 `;

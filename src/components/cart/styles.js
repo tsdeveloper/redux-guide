@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const CartContainer = styled.div`
   position: fixed;
@@ -11,12 +11,16 @@ export const CartContainer = styled.div`
   background-color: rgba(0, 0, 0, 0.7);
   display: flex;
   justify-content: flex-end;
-  visibility: ${(props) => (props.isVisible ? "visible" : "hidden")};
-  opacity: ${(props) => (props.isVisible ? "1" : "0")};
+  visibility: ${(props) => (props.isVisible ? 'visible' : 'hidden')};
+  opacity: ${(props) => (props.isVisible ? '1' : '0')};
   transition: all 0.3s ease;
 
   p {
     color: #222222;
+  }
+
+  svg {
+    color: #222;
   }
 `;
 
